@@ -50,6 +50,7 @@ public class AirlineReservation extends JFrame implements ActionListener, Window
 				btnSeats[i][j].setBackground(Color.WHITE);
 				btnSeats[i][j].setBorder(BorderFactory.createBevelBorder(BevelBorder.RAISED,
 						Color.LIGHT_GRAY, Color.DARK_GRAY));
+				btnSeats[i][j].setText(aisles[j ]);
 				btnSeats[i][j].setFocusable(false);
 				btnSeats[i][j].addActionListener(this);
 				panel.add(btnSeats[i][j]);
